@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         #container {
+            width: 90%;
+            border: 10px solid goldenrod;
+            margin: 0 auto;
+        }
+        .row {
+            height: auto;
+            background-color: tomato;
+            margin: 10px;
+        }
+        p {
+            padding: 10px;
+            color: #eee;
+            font-size: 2rem;
+        }
+        img {
+            width: 100px;
+            height: 100px;
+            float: right;
+            clear: left;
+            margin: 10px;
+        }
+
+        img #no-float {
+            float: left;
+        }
+
+        img #float {
+            float: right;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <img src="./images/t1.jpg" />
+        <img src="./images/t1.jpg" />
+        <img src="./images/t1.jpg" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis quidem minima, nobis optio nihil at aut quo molestiae nam aliquid autem non vel delectus, eum sequi amet alias iusto cumque!</p>
+    </div>
+    <div class="row">
+        <img src="./images/t1.jpg" />
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, voluptas! Temporibus ipsam adipisci illum in unde aut quo eveniet atque, neque modi sunt facilis, itaque magni labore consequatur veniam quod.</p>
+    </div>
+    <div class="no-float">
+        <img id="no-foat" src="./images/t1.jpg" />
+    </div>
+    <div class="float">
+        <img id="float" src="./images/t1.jpg" />
+    </div>
+    
+</body>
+</html>
