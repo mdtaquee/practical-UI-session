@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        header {
+            position: fixed;
+            height: 100px;
+            border: 1px solid black;
+            width: 100%;
+            background-color: tomato;
+            text-align: center;
+        }
+
+        footer {
+            position: fixed;
+            bottom: 0;
+            height: 100px;
+            background-color: lightcyan;
+            width: 100%;
+            text-align: center;
+        }
+
+        #main {
+            display: flex;
+        }
+
+        #sidebar {
+            width: 20%;
+            background-color: blue;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            THis is a header
+        </header>
+        <div id="main">
+            <aside id="sidebar">
+                <ul>
+                    <li>Home</li>
+                    <li>Services</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+            </aside>
+            <aside>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione tempore accusantium eius deserunt
+                    perferendis, laudantium eos, sit animi expedita minus deleniti recusandae blanditiis id veniam
+                    fugiat,
+                    ad necessitatibus accusamus velit?</p>
+            </aside>
+        </div>
+        <footer>
+            This is the footer
+        </footer>
+    </div>
+</body>
+
+</html>
